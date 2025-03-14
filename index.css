@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #DCEDB9;
+ }
+
+ h1{
+    color:#106194;
+    font-size: 95px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 0;
+ }
+
+#me{
+    width: 450px;
+    height: 500px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#description{
+    position: absolute;
+    background-color: #b6d47b;
+    margin: 40px 0px 40px 30px;
+    padding:30px 30px 30px 30px;
+    top: 0px;
+    left: 450px;
+    height: 350px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar {
+    background-color: #106194;
+    width:95%;
+    height: 400px; 
+    display: flex;                 
+    flex-direction:row;
+    justify-content: space-evenly; 
+    align-items: center; 
+}
+
+h2{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    margin:0;
+    width:250px;
+    height: 250px;
+}
+
+#navBar h3 {
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#navBar p{
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+    margin:0;
+}
+
+#navButton {
+    display: block;
+    margin: 10px auto; 
+    background: transparent;
+    border:none;
+}
+
+#navButton:hover{
+    filter:grayscale(100%)
+}
+
+h2, #navBar h3, #navBar p{
+    color:#edb9dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    background-color: #b6d47b;
+    height: 400px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5px;
+}
+
+#contact h3{
+    margin-top: 60px;
+    color:#106194;
+    font-size: 70px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#contact p{
+    color:#106194;
+    font-size: 20px;
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+
+
+
+

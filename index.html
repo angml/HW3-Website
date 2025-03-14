@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelia's Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://use.typekit.net/oef2mrt.css">
+</head>
+<body>
+    <div class="stacked">
+        <div id="aboutme">
+            <div id="me">
+                <h1> Hi I'm Ang</h1>
+                <img src="images/LinkedInprofilepic.jpg" alt="Profile picture" width=300 height=300>
+            </div>
+    
+            <p id="description">I grew up in Milford, Connecticut but lived in Penang, Malaysia for a year for my senior year of 
+                high school. Penang is the island where both my parents are from, so I spent lot of time with my grandma and extended 
+                family during my time there. Family trips to Malaysia were few and far between because short trips were not worthwhile,
+                due to the time and energy it takes to fly and adjust, and my older sister and I could not afford to be away from school
+                or our activities for too long. I always cherish my time in Penang and with my family because of this. I currently live
+                in Boston, MA as a second year student at Northeastern University studying Biology and Data Science. Having grown up
+                with frequent trips to New York City, I've always preferred cities more than the suburbs. While Boston is not as
+                bustling as New York City, I've enjoyed the accessibility and its beautiful skylines, especially by the water.
+                I'll be spending my first summer Boston soon for summer classes, in which I am very excited to picnic in the
+                Commons and go on runs through the Esplanade with the summer warmth. </p>
+        </div>
+
+        <div id="navBar">
+            <h2>Learn<br>more</h2>
+            <div id="brainbutton">
+                <h3>What's on my mind?</h3>
+                <p>Click the brain</p>
+                <button id="navButton"><img src="images/brain.png" alt="What's on my mind?" style="width: 200px; height: auto;"></button>
+                <script>
+                    const navButton=document.getElementById("navButton")
+                    navButton.addEventListener('click', function(){
+                        window.location.href = "page2.html"
+                    })
+                </script>
+            </div>
+
+        </div>
+
+        <div id="contact">
+            <h3>Reach out</h3>
+            <p>Email: <a href="mailto:looangelia10@gmail.com">looangelia10@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/loo.angelia/">@loo.angelia</a></p>
+        </div>
+
+    </div>
+</body>
+</html>
