@@ -1,0 +1,4 @@
+Website: https://angml.github.io/HW3-Website/
+
+CSS and Styling
+My website utilizes an Adobe Font I downloaded for most text. For my longer descriptions such as my "about me" and my current favorites, I used the default font. I used one color for the body background on both pages, and used different background colors for some containers to add dimension and variety to my pages. The widths of these containers vary to make it visually fun. On the second page I made a class that involved a transformation and flipping of the child container positions to create an alternating card look. I also added some hover CSS on the buttons to make it more obvious that they are clickable buttons. The first page was formatted using flex box and the second page was formatted using a grid. 
