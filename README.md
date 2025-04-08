@@ -1,1 +1,2 @@
-# HW3-Website
+# Personal Website For DS4200 Assignment 
+This is a cute little website I made for my DS4200 course to review HTML and CSS. The code is very basic, but I used it as a creative endeavor to experiment with layouts, color palletes, and fonts. The first page uses CSS Flexbox, while the second page is built with a CSS Grid layout. The website uses Adobe Caslon from Adobe for most of its fonts. Overall, this project was a fun opportunity for me to explore design and practice my HTML and CSS skills.
